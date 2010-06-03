@@ -1,0 +1,7 @@
+// Pop up a frame with a button in it
+button = new JButton( "My Button" );
+frame = new JFrame( "My Frame" );
+frame.getContentPane().add( button, "Center" );
+frame.pack();
+frame.setVisible(true);
+

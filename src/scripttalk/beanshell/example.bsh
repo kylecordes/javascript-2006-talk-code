@@ -1,0 +1,4 @@
+		JButton button = new JButton( "My Button" );
+		frame.getContentPane().add( button, "Center" );
+		JButton button2 = new JButton( "Your Button" );
+		frame.getContentPane().add( button2, "South" );
